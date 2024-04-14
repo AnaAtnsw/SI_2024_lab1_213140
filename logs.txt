@@ -1,0 +1,23 @@
+commit a787d9d3f741dd261474d8e1654f963d2c715047
+Author: SI_2024_lab1_213140 <109030830+Ana-Atanasova@users.noreply.github.com>
+Date:   Sun Apr 14 19:55:02 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 8314fcb90722293c43e9becbfd17c76536152909
+Author: SI_2024_lab1_213140 <109030830+Ana-Atanasova@users.noreply.github.com>
+Date:   Sun Apr 14 19:15:34 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 105dbfd149c3e47da5922494cccf3c1e6953be32
+Author: SI_2024_lab1_213140 <109030830+Ana-Atanasova@users.noreply.github.com>
+Date:   Sun Apr 14 18:19:52 2024 +0200
+
+    git commit -m "Add starter code"
+
+commit e0cf7dc40a10fc06c998b59ae2d333cce266219c
+Author: SI_2024_lab1_213140 <109030830+Ana-Atanasova@users.noreply.github.com>
+Date:   Sun Apr 14 17:33:28 2024 +0200
+
+    Initial commit

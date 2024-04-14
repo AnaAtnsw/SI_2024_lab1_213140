@@ -1,0 +1,85 @@
+1. Инсталација на Git: го инсталирав, а Github профил веќе имав направено 
+
+2. Отидов на дадениот линк и во default repository branch во полето за default branch од main го сменив на master. 
+
+3. Овде прво креирав репозиториум на Github со име SI_2024_lab1_213140, кој е private. 
+
+4. Креирав локален директориум со исто име (SI_2024_lab1_213140) и го иницијализирав со:
+	cd SI_2024_lab1_213140
+	git init
+
+5. За поврзување на локален со remote репозиториум користиме 
+$ git remote add origin https://github.com/AnaAtnsw/SI_2024_lab1_213140.git
+
+6. Додавање на README.md file:
+	touch README.md
+	git add README.md - го доведуваме до staged 
+	git commit -m "Initial commit" - порака за commit
+
+7. Ги преземаме 3те фајлови и ги додаваме: 
+	git commit --all
+	git commit -m "Add starter code"
+
+8. За синхронизација на сите гранки со remote репозиториум 
+	git push --all origin
+
+9. Ги отвараме двете гранки:
+	git branch bug1 
+	git branch bug2
+
+10. Префрлување на гранката bug1: 
+	git checkout bug1
+
+11. Ја поправаме класата, па ја доведуваме до staged со:
+	git add SILab1_1.java
+и додаваме commit со порака со командата:
+	git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12. Префрлување на гранката bug2:
+	git checkout bug2
+
+13. Ја поправаме класата, па ја доведуваме до staged со:
+	git add SILab1_2.java
+и додаваме commit со порака со командата:
+	git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14. Се враќаме на гранката bug1 со:
+	git checkout bug1
+
+15. Ја поправаме класата, па ја доведуваме до modified:
+	nano SILab1Main.java 
+	git add SILab1Main.java
+	git commit -m "Call method filterOddLengthStrings in main class" 
+
+16. Повторно се префрлуваме на гранката bug2 со:
+	git checkout bug2
+
+17. Ја поправаме класата, па ја доведуваме до modified:
+	nano SILab1Main.java
+	git add SILabMain.java
+	git commit -m "Call method makeBigStringFrom in main class"
+
+18. Сега, ги синхронизираме сите гранки со remote репозиториум:
+	git push --all origin
+
+19. Префрлување во master гранката: 
+	git checkout master
+
+20. Ја спојуваме гранката bug1 кон master:
+	git merge bug1
+
+21. Ги синхронизираме сите гранки кон remote репозитуриумот.
+	git push --all origin
+
+24. git checkout master
+
+28. Креирање на logs.txt: 
+	git log > logs.txt за да ги копираме сите git logs во logs.txt
+	git add logs.txt 213140.txt ги додава двата во staged 
+	git commit -m "Final commit"
+29. Синхронизација на сите гранки со remote репозиториумот:
+	git push --all origin 
+
+29.
+
+
